@@ -20,7 +20,7 @@ const TabNavigator = () => {
         tabBarShowLabel: false,
         tabBarStyle: styles.tabBarStyle,
         tabBarBackground: () => (
-          <BlurView style={styles.BlurViewStyles} blurAmount={20} />
+          <BlurView style={styles.BlurViewStyles} blurAmount={10} />
         ),
       }}>
       <Tab.Screen
@@ -104,7 +104,6 @@ const styles = StyleSheet.create({
     height: 60,
     width: '100%',
     bottom: 0,
-    top: 0,
     left: 0,
     right: 0,
   },
