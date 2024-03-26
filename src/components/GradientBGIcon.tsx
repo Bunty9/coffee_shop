@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderWidth: 2,
     borderColor: COLORS.secondaryDarkGreyHex,
-    borderRadius: SPACING.space_12,
+    borderRadius: SPACING.space_2,
     backgroundColor: COLORS.secondaryDarkGreyHex,
   },
   gradient: {
