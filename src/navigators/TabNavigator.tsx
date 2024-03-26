@@ -27,13 +27,13 @@ const HomeTabIcon = (props: IconProps) => (
   <TabIcon name="home" focused={props.focused} />
 );
 const CartTabIcon = (props: IconProps) => (
-  <TabIcon name="cart" focused={props.focused} />
+  <TabIcon name="shopping-cart" focused={props.focused} />
 );
 const OrderHistoryTabIcon = (props: IconProps) => (
   <TabIcon name="bell" focused={props.focused} />
 );
 const FavouritesTabIcon = (props: IconProps) => (
-  <TabIcon name="like" focused={props.focused} />
+  <TabIcon name="heart" focused={props.focused} />
 );
 
 const TabNavigator = () => {

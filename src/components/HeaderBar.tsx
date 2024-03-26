@@ -12,9 +12,9 @@ const HeaderBar: React.FC<HeaderBarProps> = ({title}) => {
   return (
     <View style={styles.headercontainer}>
       <GradientBGIcon
-        name="menu"
+        name="grid"
         color={COLORS.primaryGreyHex}
-        size={FONTSIZE.size_16}
+        size={FONTSIZE.size_24}
       />
 
       <Text style={styles.headerTitle}>{title}</Text>
@@ -33,9 +33,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   headerTitle: {
-    fontFamily: FONTFAMILY.poppins_semibold,
+    fontFamily: FONTFAMILY.poppins_light,
     fontSize: FONTSIZE.size_20,
-    fontWeight: 'bold',
     color: COLORS.primaryWhiteHex,
   },
 });
