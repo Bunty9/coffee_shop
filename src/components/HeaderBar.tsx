@@ -13,7 +13,7 @@ const HeaderBar: React.FC<HeaderBarProps> = ({title}) => {
     <View style={styles.headercontainer}>
       <GradientBGIcon
         name="grid"
-        color={COLORS.primaryGreyHex}
+        color={COLORS.secondaryLightGreyHex}
         size={FONTSIZE.size_24}
       />
 
