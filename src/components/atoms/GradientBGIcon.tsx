@@ -1,7 +1,7 @@
 import {StyleSheet, View} from 'react-native';
 import React from 'react';
 import LinearGradient from 'react-native-linear-gradient';
-import {COLORS, SPACING} from '../theme/theme';
+import {COLORS, SPACING} from '../../theme/theme';
 import CustomIcon from './CustomIcon';
 
 interface GradientBGIconProps {
@@ -16,7 +16,7 @@ const GradientBGIcon: React.FC<GradientBGIconProps> = ({name, color, size}) => {
       <LinearGradient
         start={{x: 0, y: 0.2}}
         end={{x: 1, y: 0.8}}
-        colors={[COLORS.primaryLightGreyHex, COLORS.secondaryBlackRGBA]}
+        colors={[COLORS.primaryDarkGreyHex, COLORS.secondaryBlackRGBA]}
         style={styles.gradient}>
         <CustomIcon name={name} color={color} size={size} />
       </LinearGradient>

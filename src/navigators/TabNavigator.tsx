@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {COLORS} from '../theme/theme';
 import {BlurView} from '@react-native-community/blur';
-import CustomIcon from '../components/CustomIcon';
+import CustomIcon from '../components/atoms/CustomIcon';
 import HomeScreen from '../screens/HomeScreen';
 import CartScreen from '../screens/CartScreen';
 import OrderHistoryScreen from '../screens/OrderHistoryScreen';
@@ -12,7 +12,7 @@ import FavouritesScreen from '../screens/FavouritesScreen';
 const Tab = createBottomTabNavigator();
 
 const TabBarBackground = () => (
-  <BlurView overlayColor="" style={styles.BlurViewStyles} blurAmount={10} />
+  <BlurView overlayColor="" style={styles.BlurViewStyles} blurAmount={5} />
 );
 const TabIcon = ({name, focused}: {name: string; focused: boolean}) => (
   <CustomIcon
