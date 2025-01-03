@@ -101,7 +101,7 @@ const HomeScreen = ({navigation}: any) => {
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.scrollviewStyles}>
-        <HeaderBar title="Home" />
+        <HeaderBar title="Coffee" />
         <Text style={styles.screenTitle}>
           Find the Best {'\n'}coffee for you
         </Text>
