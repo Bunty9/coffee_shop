@@ -9,7 +9,7 @@ A visually pleasing coffee shop applicaiton built for mobile with React Native (
 - Robust State management in Zustand
 - Open for Modification
 
-![screenshot](screenshots/Screenshot_20250103_113332.png)
+<img src="screenshots/Screenshot_20250103_113332.png" width="300">
 
 ## Step 1: Clone the Project 🔁
 
