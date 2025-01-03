@@ -73,8 +73,13 @@ const HomeScreen = ({navigation}: any) => {
     });
   };
 
-  const beanscardButtonPressHandler = (id: string) => {
-    console.log('beanscardButtonPressHandler', id);
+  const beanscardButtonPressHandler = (item: any) => {
+    console.log('beanscardButtonPressHandler', item.id);
+    navigation.navigate('Details', {
+      id: item.id,
+      index: item.index,
+      type: item.type,
+    });
   };
 
   const searchCoffee = (search: string) => {
@@ -234,7 +239,7 @@ const HomeScreen = ({navigation}: any) => {
           renderItem={({item}) => {
             return (
               <TouchableOpacity
-                onPress={() => beanscardButtonPressHandler(item.id)}>
+                onPress={() => beanscardButtonPressHandler(item)}>
                 <CoffeeCard
                   id={item.id}
                   index={item.index}

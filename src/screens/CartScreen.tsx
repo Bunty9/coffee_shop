@@ -9,7 +9,7 @@ const CartScreen = () => {
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.scrollviewStyles}>
-        <Text>Cart Screen</Text>
+        <Text style={styles.text}>Cart Screen</Text>
       </ScrollView>
     </View>
   );
@@ -24,5 +24,8 @@ const styles = StyleSheet.create({
   },
   scrollviewStyles: {
     flexGrow: 1,
+  },
+  text: {
+    color: COLORS.primaryWhiteHex,
   },
 });

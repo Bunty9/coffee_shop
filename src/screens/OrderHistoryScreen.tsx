@@ -9,7 +9,7 @@ const OrderHistoryScreen = () => {
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.scrollviewStyles}>
-        <Text>Order History Screen</Text>
+        <Text style={styles.text}>Order History Screen</Text>
       </ScrollView>
     </View>
   );
@@ -24,5 +24,8 @@ const styles = StyleSheet.create({
   },
   scrollviewStyles: {
     flexGrow: 1,
+  },
+  text: {
+    color: COLORS.primaryWhiteHex,
   },
 });

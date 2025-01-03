@@ -9,7 +9,7 @@ const FavouritesScreen = () => {
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.scrollviewStyles}>
-        <Text>Favourites Screen</Text>
+        <Text style={styles.text}>Favourites Screen</Text>
       </ScrollView>
     </View>
   );
@@ -24,5 +24,8 @@ const styles = StyleSheet.create({
   },
   scrollviewStyles: {
     flexGrow: 1,
+  },
+  text: {
+    color: COLORS.primaryWhiteHex,
   },
 });
